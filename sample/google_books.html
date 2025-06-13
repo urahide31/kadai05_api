@@ -38,7 +38,7 @@ $("#send").on("click", function(){
         dataType:"json"
     }).done(function(data){
         // 書籍名、出版社、著者、サムネイル[]
-        console.log(data);
+        // console.log(data);
         let html ="";
         const len = data.items.length;
         for(let i=0; i<len; i++){
